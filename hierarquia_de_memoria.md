@@ -40,5 +40,15 @@ igual ao do nível mais baixo (e maior).<br>
   - Em uma leitura, o valor retornado depende de quais blocos estão na cache.<br>
   - A maioria do custo da hierarquia de memória está no nível mais alto.<br>
   - A maioria da capacidade da hierarquia de memória está no nível mais baixo.<br>
+- O custo das memórias aumenta conforme a frabricação aumenta a área por bit de memória<br>
+![image](https://github.com/user-attachments/assets/43fa518d-c54c-409a-b66e-208b86986d6b)
+
+### Tecnologias de Memória
+#### SRAM
+#### DRAM
+#### Memória Flash
+#### Memória em Disco
+### Princípios Básicos de Cache
+
 
 
