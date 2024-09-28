@@ -49,6 +49,15 @@ igual ao do nível mais baixo (e maior).<br>
 #### Memória Flash
 #### Memória em Disco
 ### Princípios Básicos de Cache
+- Cache
+  - Um lugar seguro para guardar ou esconder coisas.<br>
+  - Termo usado para referenciar qualquer armazenamento usado
+para tirar proveito da localidade de acesso.<br>
+- Como sabemos se um dado está na cache?
+#### Cache de Mapeamento Direto
+- Uma estrutura de cache em que cada local de memória é mapeado exatamente para um local na cache<br>
+- Mapeamento para localizar um bloco -> (Endereço de bloco)módulo(Nº blocos na cache)<br>
 
+![image](https://github.com/user-attachments/assets/b3af53fe-8e23-456c-ae90-522d9c5a64a1)
 
 
