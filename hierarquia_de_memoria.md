@@ -60,4 +60,13 @@ para tirar proveito da localidade de acesso.<br>
 
 ![image](https://github.com/user-attachments/assets/b3af53fe-8e23-456c-ae90-522d9c5a64a1)
 
+- Como cada local da cache pode armazenar o conteúdo de diversos locais diferentes da memória?
+  - Usa-se um conjunto de tags na cache, as tags contêm a parte superior do endereço que não são usados no índice para a cache.<br>
+  - bits mais significativos(à esquerda) VS menos significativos(à direita)
+  - Os bits mais significativos seleciona na tag e os menos significativos seleciona o bloco
+#### tag
+- Um campo da tabela usado para a hierarquia da memória que contém informações de endereço necessários para identificar se o bloco associado na hierarquia correponde a uma palavra requisitada<br>
+#### bit de Validade
+- Um campo nas tabelas de hierarquia de memória que indica que o bloco associado contém dados válidos<br>
+- Quando o processador é iniciado a cache não tem dados, então o bit de validade aponta dados inválidos para os campos.<br>
 
