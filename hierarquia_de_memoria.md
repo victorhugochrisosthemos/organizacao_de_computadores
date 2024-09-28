@@ -27,12 +27,18 @@
 - O tempo necessário para acessar um nível da hierarquia de memória, incluindo se o acesso é um acerto ou falha.<br>
 ### Penalidade de Falha
 - O tempo na busca de um bloco de nível inferior para um nível superior, incluindo o tempo para acessar o bloco, transmiti-lo de um nível a outro e inseri-lo no nível que experimentou a falha, e depois passar o bloco a quem o solicitou.<br>
-### ----------------------------------------------------------------
+### --------------------------------------------------------------------------------------------
+
+![image](https://github.com/user-attachments/assets/0d890c9e-cac1-4754-9dfd-777aa1ea3573)
+
 - Se a taxa de acertos for
 bastante alta, a hierarquia de memória terá um tempo de acesso efetivo,
 próximo ao tempo de acesso do nível mais alto (e mais rápido) e um tamanho
 igual ao do nível mais baixo (e maior).<br>
-
-![image](https://github.com/user-attachments/assets/0d890c9e-cac1-4754-9dfd-777aa1ea3573)
+- Afirmações:<br>
+  - As hierarquias de memória tiram proveito da localidade temporal.<br>
+  - Em uma leitura, o valor retornado depende de quais blocos estão na cache.<br>
+  - A maioria do custo da hierarquia de memória está no nível mais alto.<br>
+  - A maioria da capacidade da hierarquia de memória está no nível mais baixo.<br>
 
 
