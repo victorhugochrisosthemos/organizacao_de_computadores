@@ -1,4 +1,5 @@
 # Calculando o número total de bits de uma cache diretamente mapeada
+- Exercício da página 645 do livro Organização e Projeto de Computadores<br>
 ## Dados iniciais
 - 16 KiB de dados<br>
 - Blocos de 4 palavras<br>
