@@ -77,12 +77,23 @@ para tirar proveito da localidade de acesso.<br>
 ![image](https://github.com/user-attachments/assets/b4fdb811-9664-4c88-aab1-98f9161c475b)
 ![image](https://github.com/user-attachments/assets/5269eae5-d257-41a0-93e4-29ce498d1f14)
 <br><br><br><br>
-<br><br><br><br>
+## Penalidade de falha e a Taxa de falha
 ![image](https://github.com/user-attachments/assets/b9db0169-0aa2-419c-bcd0-d895763f6581)
-- Se o tamanho do bloco for grande demais na cache haverá competição de acesso aos blocos, fazendo com que um bloco seja retirado antes que muitas de suas palavras sejam acessadas<br>
+- A penalidade de falha é determinada pelo tempo
+necessário para buscar o bloco do próximo nível mais baixo na hierarquia e
+carregá-lo na cache<br>
+- A taxa de falha é a frequência com que a cache não contém os dados solicitados pelo processador.<br>
+- Blocos grandes podem diminuir a taxa de falhas, mas aumentam a penalidade em caso de falha, porque mais dados precisam ser carregados da memória principal.<br>
+- O tempo para buscar o bloco possui duas partes: a latência
+até a primeira palavra e o tempo de transferência para o restante do bloco.<br>
 - A localidade espacial entre as palavras em
 um bloco diminui com um bloco muito grande, perdendo os benefícios na
 taxa de falhas que vão diminuir<br>
+- O tempo de transferência aumenta conforme o bloco aumenta<br>
+- A taxa de falhas diminui com blocos menores<br>
+- Encontrar o tamanho ideal do bloco é fundamental para maximizar o desempenho da cache.<br>
 
+- Se os blocos ficarem muito grandes, o tempo perdido nas falhas será maior do que o ganho de performance obtido pela menor taxa de falhas, e o desempenho da cache diminui.<br>
+- Encontrar o tamanho ideal do bloco é fundamental para maximizar o desempenho da cache.<br>
 
 
