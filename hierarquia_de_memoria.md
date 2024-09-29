@@ -84,16 +84,18 @@ necessário para buscar o bloco do próximo nível mais baixo na hierarquia e
 carregá-lo na cache<br>
 - A taxa de falha é a frequência com que a cache não contém os dados solicitados pelo processador.<br>
 - Blocos grandes podem diminuir a taxa de falhas, mas aumentam a penalidade em caso de falha, porque mais dados precisam ser carregados da memória principal.<br>
-- O tempo para buscar o bloco possui duas partes: a latência
-até a primeira palavra e o tempo de transferência para o restante do bloco.<br>
+- O tempo de transferência aumenta conforme o bloco aumenta<br>
+- A taxa de falhas diminui com blocos menores<br>
 - A localidade espacial entre as palavras em
 um bloco diminui com um bloco muito grande, perdendo os benefícios na
 taxa de falhas que vão diminuir<br>
-- O tempo de transferência aumenta conforme o bloco aumenta<br>
-- A taxa de falhas diminui com blocos menores<br>
 - Encontrar o tamanho ideal do bloco é fundamental para maximizar o desempenho da cache.<br>
+## Reinicio precoce
+- Técnica utilizada para diminuir a latência de acesso a memória principal quando a falha de cache.<br>
+- Permite que o processador comece a usar os dados que precisa antes de carregar todos os dados para a cache.<br>
+- Utilizado mais em acesso a instruções.<br>
+## Falha de cache
+- Uma requisição de dados da cache que não pode ser atendida porque os dados
+não estão presentes na cache.<br>
 
-- Se os blocos ficarem muito grandes, o tempo perdido nas falhas será maior do que o ganho de performance obtido pela menor taxa de falhas, e o desempenho da cache diminui.<br>
-- Encontrar o tamanho ideal do bloco é fundamental para maximizar o desempenho da cache.<br>
-
-
+# Parei o resumo na página 649...
