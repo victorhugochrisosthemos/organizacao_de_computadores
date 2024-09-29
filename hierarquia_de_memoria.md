@@ -76,7 +76,13 @@ para tirar proveito da localidade de acesso.<br>
 <br><br><br><br>
 ![image](https://github.com/user-attachments/assets/b4fdb811-9664-4c88-aab1-98f9161c475b)
 ![image](https://github.com/user-attachments/assets/5269eae5-d257-41a0-93e4-29ce498d1f14)
-
+<br><br><br><br>
+<br><br><br><br>
+![image](https://github.com/user-attachments/assets/b9db0169-0aa2-419c-bcd0-d895763f6581)
+- Se o tamanho do bloco for grande demais na cache haverá competição de acesso aos blocos, fazendo com que um bloco seja retirado antes que muitas de suas palavras sejam acessadas<br>
+- A localidade espacial entre as palavras em
+um bloco diminui com um bloco muito grande, perdendo os benefícios na
+taxa de falhas que vão diminuir<br>
 
 
 
