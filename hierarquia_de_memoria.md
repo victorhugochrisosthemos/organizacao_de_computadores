@@ -62,11 +62,19 @@ para tirar proveito da localidade de acesso.<br>
 
 - Como cada local da cache pode armazenar o conteúdo de diversos locais diferentes da memória?
   - Usa-se um conjunto de tags na cache, as tags contêm a parte superior do endereço que não são usados no índice para a cache.<br>
-  - bits mais significativos(à esquerda) VS menos significativos(à direita)
-  - Os bits mais significativos seleciona na tag e os menos significativos seleciona o bloco
+  - bits mais significativos(à esquerda) VS menos significativos(à direita)<br>
+  - Os bits mais significativos seleciona o bloco e os menos significativos seleciona a tag<br>
 #### tag
 - Um campo da tabela usado para a hierarquia da memória que contém informações de endereço necessários para identificar se o bloco associado na hierarquia correponde a uma palavra requisitada<br>
 #### bit de Validade
 - Um campo nas tabelas de hierarquia de memória que indica que o bloco associado contém dados válidos<br>
 - Quando o processador é iniciado a cache não tem dados, então o bit de validade aponta dados inválidos para os campos.<br>
+#### ------------------------------------------------------------------------------------------------
+- O caching usa a ideia de predição, usando o princípio de localidade para encontrar dados nos níveis mais altos da hierarquia da memória, quando a predição for errada, procura-se nos níveis mais baixos<br>
+
+![image](https://github.com/user-attachments/assets/db380d03-8a9e-471e-b980-7169ce559bb4)
+<br><br>
+![image](https://github.com/user-attachments/assets/b4fdb811-9664-4c88-aab1-98f9161c475b)
+
+
 
