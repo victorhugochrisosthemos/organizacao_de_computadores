@@ -73,8 +73,10 @@ para tirar proveito da localidade de acesso.<br>
 - O caching usa a ideia de predição, usando o princípio de localidade para encontrar dados nos níveis mais altos da hierarquia da memória, quando a predição for errada, procura-se nos níveis mais baixos<br>
 
 ![image](https://github.com/user-attachments/assets/db380d03-8a9e-471e-b980-7169ce559bb4)
-<br><br>
+<br><br><br><br>
 ![image](https://github.com/user-attachments/assets/b4fdb811-9664-4c88-aab1-98f9161c475b)
+![image](https://github.com/user-attachments/assets/5269eae5-d257-41a0-93e4-29ce498d1f14)
+
 
 
 
