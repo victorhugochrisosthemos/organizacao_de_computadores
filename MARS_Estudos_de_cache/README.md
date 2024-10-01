@@ -9,7 +9,7 @@
       - Word = 8 bytes por exemplo
     - Bloco ou linha de cache é a unidade de dados transferida entre a memória principal e a cache
       - Em um bloco pode ter mais de uma palavra
-      - Exemplo: 16 blocos e word de 16, significa que tem 16 blocos e em cafa um deles tem 16 palavras
+      - Exemplo: bloco 16 e word 16, significa que tem 16 blocos e em cada um deles tem 16 palavras
       
  ![image (2)](https://github.com/user-attachments/assets/8f9f2414-4bcc-4720-8b33-ca18345a3d55)
 
