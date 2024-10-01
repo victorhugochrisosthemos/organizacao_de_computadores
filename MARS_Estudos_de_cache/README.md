@@ -17,7 +17,7 @@ Este programa percorrerá uma matriz de inteiros de 16 por 16 elementos na ordem
 ![image](https://github.com/user-attachments/assets/229fe55f-c667-4097-b63c-087c5123b523)
 - Qual a taxa de acerto(hit rate)?
     - A cada falta, um bloco de 4 palavras é escrito no cache. Em uma varredura em ordem de linha, os elementos da matriz são acessados na mesma ordem em que estão armazenados na memória. Assim, cada falta no cache é seguida por 3 acertos, pois os próximos 3 elementos são encontrados no mesmo bloco de cache. Isso é seguido por outra falta quando o Mapeamento Direto mapeia para o próximo bloco de cache, e o padrão se repete. Portanto, 3 de cada 4 acessos à memória serão resolvidos no cache.<br>
-    - Se aumentar o número de blocos não vai mudar a taxa de acerto nesse exemplo, a o tamanho da word vai, sendo a taxa de acerto definida por [(word-1)/word]*100<br>
+    - Se aumentar o número de blocos não vai mudar a taxa de acerto nesse exemplo, a o tamanho da word vai, sendo a taxa de acerto definida por [(word-1)/word]x100<br>
     - A taxa de acerto para 8 words será 7/8 = 0,75. E a taxa de acerto para 2 words é 1/2 = 0,50 <br>
 ### column-major.asm
 Este programa percorrerá uma matriz de inteiros de 16 por 16 elementos na ordem de varredura por colunas (column-major), atribuindo valores de 0 a 255 aos elementos, em ordem.<br>
@@ -28,6 +28,6 @@ Este programa percorrerá uma matriz de inteiros de 16 por 16 elementos na ordem
     - Como cada acesso é um novo bloco e nenhum bloco é reutilizado, terá 0% taxa de acerto
       ![image (3)](https://github.com/user-attachments/assets/98b7e3a3-c37b-445e-b59b-79a6221253b1)
 
-    - Se a quantidade de blocos for 16 e de word 16, irá errar somente o primeiro acesso aos blocos, depois é só hit rate → (16*16 - 16 )/ 16*16 = 0,9375
+    - Se a quantidade de blocos for 16 e de word 16, irá errar somente o primeiro acesso aos blocos, depois é só hit rate → (16x16 - 16 )/ 16x16 = 0,9375
     - ![image (4)](https://github.com/user-attachments/assets/7cd15fec-d2dd-4268-b630-6fa3e7dd36eb)
 
