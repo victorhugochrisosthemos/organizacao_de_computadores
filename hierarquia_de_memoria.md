@@ -63,7 +63,7 @@ para tirar proveito da localidade de acesso.<br>
 - Como cada local da cache pode armazenar o conteúdo de diversos locais diferentes da memória?
   - Usa-se um conjunto de tags na cache, as tags contêm a parte superior do endereço que não são usados no índice para a cache.<br>
   - bits mais significativos(à esquerda) VS menos significativos(à direita)<br>
-  - Os bits mais significativos seleciona o bloco e os menos significativos seleciona a tag<br>
+  - Os bits mais significativos seleciona a tag e os menos significativos seleciona o bloco<br>
 #### tag
 - Um campo da tabela usado para a hierarquia da memória que contém informações de endereço necessários para identificar se o bloco associado na hierarquia correponde a uma palavra requisitada<br>
 #### bit de Validade
