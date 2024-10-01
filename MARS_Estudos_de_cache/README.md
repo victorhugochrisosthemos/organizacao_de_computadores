@@ -29,5 +29,5 @@ Este programa percorrerá uma matriz de inteiros de 16 por 16 elementos na ordem
       ![image (3)](https://github.com/user-attachments/assets/98b7e3a3-c37b-445e-b59b-79a6221253b1)
 
     - Se a quantidade de blocos for 16 e de word 16, irá errar somente o primeiro acesso aos blocos, depois é só hit rate → (16x16 - 16 )/ 16x16 = 0,9375
-    - ![image (4)](https://github.com/user-attachments/assets/7cd15fec-d2dd-4268-b630-6fa3e7dd36eb)
+  ![image (4)](https://github.com/user-attachments/assets/7cd15fec-d2dd-4268-b630-6fa3e7dd36eb)
 
