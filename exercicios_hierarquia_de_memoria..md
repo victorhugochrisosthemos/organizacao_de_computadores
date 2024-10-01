@@ -40,7 +40,7 @@
 ## Considerações iniciais
 - Cache com 64 blocos<br>
 - 16 bytes por bloco<br>
-- Qual o número do bloco-ínndice o endereço em bytes 1200 é mapeado?
+- Qual o número do bloco/índice do endereço 1200 bytes mapeado?
 ## Notações importantes
 -  O módulo na matemática é o resto de uma divisão<br><br><br>
 ![image](https://github.com/user-attachments/assets/800793cc-f557-4904-9775-0c8c16aa5457)
