@@ -1,5 +1,5 @@
 # Hierarquia de Memória
-- Livro "Organização e Projeto de Computadores" (Página 614 - 807)<br>
+- Livro "Organização e Projeto de Computadores" (Página 614 - 807) + minhas anotações<br>
 ## Conceitos
 - Hierarquia de memória consiste em múltiplos níveis de memória com diferentes velocidades e tamanhos<br>
 - Conforme a distância da memória em relação ao processador aumenta, o tamanho e o tempo de acesso aumenta<br>
