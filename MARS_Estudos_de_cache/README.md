@@ -5,9 +5,9 @@
   - Começa na parte 2, página 4<br>
 
 - Word X Block
-    - Palavra é a menor unidade de dados que o processador pode manipular.<br>
-      - Word = 8 bytes por exemplo<br>
-    - Bloco ou linha de cache é a unidade de dados transferida entre a memória principal e a cache<br>
+    - Palavra é a menor unidade de dados que o processador pode manipular.
+      - Word = 8 bytes por exemplo
+    - Bloco ou linha de cache é a unidade de dados transferida entre a memória principal e a cache
 ## Mars_Tutorial.pdf
 ### row-major.asm
 Este programa percorrerá uma matriz de inteiros de 16 por 16 elementos na ordem de varredura por linhas (row-major), atribuindo valores de 0 a 255 aos elementos, em ordem. Ele executa o seguinte algoritmo<br>
