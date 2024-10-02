@@ -54,10 +54,35 @@
 - 75 mod 64 = 11<br>
 - Finalizando, o endereço 1200 está no bloco 11 da memória da cache<br>
 
-# 3. Possíveis questões para a prova
-#### 3.1 O que é e como calcular o overhead na cache?
+# 3. Possíveis questões para a prova, não tenho certeza...
+#### 3.1. Como calcular o tamanho da cache?
+#### 3.2. O que é e como calcular o overhead na cache?
 - Overhead refere-se à quantidade de dados adicionais que são necessários para gerenciar a cache além dos dados reais que estão sendo armazenados
 - Pode ser calculado o overhead <br>
   -> bits de controle X número de blocos <br>
   -> bits de controle podem ser tag, bit de validade, etc <br>
   -> porcentagem de overhead -> (bits de controle / tamanho da cache) X 100 <br>
+#### 3.3. Descreva as características gerais de um programa
+- baixa localidade temporal no acesso a dados
+- baixa localidade espacial no acesso a dados
+    - Taxa de acertos no cache baixa
+    - Maior número de acessos à memória principal
+    
+- baixa localidade espacial no acesso a dados
+- alta localidade temporal no acesso a dados
+    - Forte reutilização dos mesmos dados
+    - Pouco uso de blocos na cache
+    
+- alta localidade temporal no acesso a dados
+- alta localidade espacial no acesso a dados
+
+- baixa localidade temporal no acesso a instruções
+- baixa localidade espacial no acesso a instruções
+
+- alta localidade temporal no acesso a instruções
+- alta localidade espacial no acesso a instruções
+
+- baixa localidade espacial no acesso a instruções
+- alta localidade temporal no acesso a instruções
+
+
