@@ -55,9 +55,9 @@
 - Finalizando, o endereço 1200 está no bloco 11 da memória da cache<br>
 
 # 3. Possíveis questões para a prova
-#### O que é e como calcular o overhead na cache?
+#### 3.1 O que é e como calcular o overhead na cache?
 - Overhead refere-se à quantidade de dados adicionais que são necessários para gerenciar a cache além dos dados reais que estão sendo armazenados
-- Pode ser calculado o overhead 
-  -> bits de controle X número de blocos
-  -> bits de controle podem ser tag, bit de validade, etc
-  -> porcentagem de overhead -> (bits de controle / tamanho da cache) X 100
+- Pode ser calculado o overhead <br>
+  -> bits de controle X número de blocos <br>
+  -> bits de controle podem ser tag, bit de validade, etc <br>
+  -> porcentagem de overhead -> (bits de controle / tamanho da cache) X 100 <br>
