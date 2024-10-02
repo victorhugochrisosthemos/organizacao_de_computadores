@@ -85,10 +85,6 @@ carregá-lo na cache<br>
 - A taxa de falha é a frequência com que a cache não contém os dados solicitados pelo processador.<br>
 - Blocos grandes podem diminuir a taxa de falhas, mas aumentam a penalidade em caso de falha, porque mais dados precisam ser carregados da memória principal.<br>
 - O tempo de transferência aumenta conforme o bloco aumenta<br>
-- A taxa de falhas diminui com blocos menores<br>
-- A localidade espacial entre as palavras em
-um bloco diminui com um bloco muito grande, perdendo os benefícios na
-taxa de falhas que vão diminuir<br>
 - Encontrar o tamanho ideal do bloco é fundamental para maximizar o desempenho da cache.<br>
 ## Reinicio precoce
 - Técnica utilizada para diminuir a latência de acesso a memória principal quando a falha de cache.<br>
