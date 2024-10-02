@@ -63,26 +63,20 @@
   -> bits de controle podem ser tag, bit de validade, etc <br>
   -> porcentagem de overhead -> (bits de controle / tamanho da cache) X 100 <br>
 #### 3.3. Descreva as características gerais de um programa
-- baixa localidade temporal no acesso a dados
-- baixa localidade espacial no acesso a dados
+- Baixa localidade temporal no acesso a dados e baixa localidade espacial no acesso a dados
     - Taxa de acertos no cache baixa
     - Maior número de acessos à memória principal
     
-- baixa localidade espacial no acesso a dados
-- alta localidade temporal no acesso a dados
+- Baixa localidade espacial no acesso a dados e alta localidade temporal no acesso a dados
     - Forte reutilização dos mesmos dados
     - Pouco uso de blocos na cache
     
-- alta localidade temporal no acesso a dados
-- alta localidade espacial no acesso a dados
-
-- baixa localidade temporal no acesso a instruções
-- baixa localidade espacial no acesso a instruções
-
-- alta localidade temporal no acesso a instruções
-- alta localidade espacial no acesso a instruções
-
-- baixa localidade espacial no acesso a instruções
-- alta localidade temporal no acesso a instruções
-
+- Alta localidade temporal no acesso a dados e alta localidade espacial no acesso a dados
+  - ?
+- Baixa localidade temporal no acesso a instruções e baixa localidade espacial no acesso a instruções
+  - ?
+- Alta localidade temporal no acesso a instruções e alta localidade espacial no acesso a instruções
+  - ?
+- Baixa localidade espacial no acesso a instruções e alta localidade temporal no acesso a instruções
+  - ?
 
