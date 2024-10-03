@@ -36,6 +36,8 @@
 - Somando tudo<br>
   -> 131072 x 18432 x 1024 = 150528 bits<br>
 
+#### Outra forma de calcular o tamanho da cache é calcular 1 endereçamento e multiplicar pela quantidade de blocos/linhas/índice
+
 # 2. Mapeando um endereço para um bloco de cache multipalavra
 ## Considerações iniciais
 - Cache com 64 blocos<br>
@@ -63,22 +65,18 @@
   -> bits de controle podem ser tag, bit de validade, etc <br>
   -> porcentagem de overhead -> (bits de controle / tamanho da cache) X 100 <br>
 #### 3.3. Descreva as características gerais de um programa
-- Baixa localidade temporal no acesso a dados e baixa localidade espacial no acesso a dados
-    - Taxa de acertos no cache baixa
-    - Maior número de acessos à memória principal
-    
-- Baixa localidade espacial no acesso a dados e alta localidade temporal no acesso a dados
-    - Forte reutilização dos mesmos dados
-    - Pouco uso de blocos na cache
-    
-- Alta localidade temporal no acesso a dados e alta localidade espacial no acesso a dados
-  - ?
-- Baixa localidade temporal no acesso a instruções e baixa localidade espacial no acesso a instruções
-  - ?
-- Alta localidade temporal no acesso a instruções e alta localidade espacial no acesso a instruções
-  - ?
-- Baixa localidade espacial no acesso a instruções e alta localidade temporal no acesso a instruções
-  - ?
+- Baixa localidade temporal no acesso a dados
+- Baixa localidade espacial no acesso a dados
+- Baixa localidade espacial no acesso a dados
+- Alta localidade temporal no acesso a dados
+- Alta localidade temporal no acesso a dados
+- Alta localidade espacial no acesso a dados
+- Baixa localidade temporal no acesso a instruções
+- Baixa localidade espacial no acesso a instruções
+- Alta localidade temporal no acesso a instruções
+- Alta localidade espacial no acesso a instruções
+- Baixa localidade espacial no acesso a instruções
+- Alta localidade temporal no acesso a instruções
 #### 3.4. Falhas de cache
 #### 3.5. write-through
 #### 3.6. buffer de escrita
