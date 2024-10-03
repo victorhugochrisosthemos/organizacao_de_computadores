@@ -79,4 +79,7 @@
   - ?
 - Baixa localidade espacial no acesso a instruções e alta localidade temporal no acesso a instruções
   - ?
-
+#### 3.4. Falhas de cache
+#### 3.5. write-through
+#### 3.6. buffer de escrita
+#### 3.7. write-back
