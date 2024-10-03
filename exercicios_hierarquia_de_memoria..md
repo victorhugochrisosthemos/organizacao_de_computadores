@@ -47,8 +47,8 @@
 
 ## Endereço do bloco
 - (Endereço do bloco) módulo (Número de blocos de cache)<br>
-- 1200 mod 16 = 75<br>
-- Com isso, o endereço 1200 está no bloco 75 da memória pincipal<br>
+- 1200 / 16 = 75<br>
+- Com isso, o endereço 1200 está no bloco 75 da memória principal<br>
 ## Determinar o número do bloco na cache<br>
 - A cache tem 64 blocos<br>
 - 75 mod 64 = 11<br>
