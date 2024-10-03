@@ -37,7 +37,7 @@ próximo ao tempo de acesso do nível mais alto (e mais rápido) e um tamanho
 igual ao do nível mais baixo (e maior).<br>
 - Afirmações:<br>
   - As hierarquias de memória tiram proveito da localidade temporal.<br>
-  - Em uma leitura, o valor retornado depende de quais blocos estão na cache.<br>
+  - Em uma leitura, o valor retornado depende de quais blocos estão na cache.(ERRADO!!!?)<br>
   - A maioria do custo da hierarquia de memória está no nível mais alto.<br>
   - A maioria da capacidade da hierarquia de memória está no nível mais baixo.<br>
 - O custo das memórias aumenta conforme a frabricação aumenta a área por bit de memória<br>
