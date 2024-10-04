@@ -81,3 +81,15 @@
 #### 3.5. write-through
 #### 3.6. buffer de escrita
 #### 3.7. write-back
+#### 3.8. Análises de cache com as seguintes configurações
+- Localidade temporal e espacial no acesso a dados:
+  - Alta localidade temporal: Acessa suas variáveis várias vezes em um curto intervalo de tempo.
+  - Baixa localidade temporal: Acessa suas variáveis uma única vez ou raramente (taxa de acertos no cache baixa).
+  - Alta localidade espacial: Realiza acessos sequenciais a posições de memória adjacentes, como em vetores.
+  - Baixa localidade espacial: Acessa posições de memória distantes entre si, de forma não sequencial (pouco uso da função dos blocos na cache).
+
+- Localidade temporal e espacial no acesso a instruções:
+  - Alta localidade temporal: As instruções são executadas repetidamente, como em loops ou chamadas frequentes a funções.
+  - Baixa localidade temporal: As instruções são executadas uma única vez ou com pouca frequência.
+  - Alta localidade espacial: As instruções próximas na memória são executadas em sequência, como em blocos de código ou funções lineares.
+  - Baixa localidade espacial: As instruções estão espalhadas por diferentes locais na memória e são acessadas de forma não sequencial.
