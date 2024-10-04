@@ -80,3 +80,5 @@
 #### 3.5. write-through
 #### 3.6. buffer de escrita
 #### 3.7. write-back
+#### 3.8. TMAM
+![image](https://github.com/user-attachments/assets/dabdcc5f-618f-4c08-99f9-16d31ffe081f)
