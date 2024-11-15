@@ -66,5 +66,5 @@ https://fastercapital.com/content/System-on-Chip--SoC---Integrating-multiple-com
 
 
 ## Próximos passos de estudos
-[fastercapital - Entendo SoC](https://fastercapital.com/content/System-on-Chip--SoC---Integrating-multiple-components-on-a-single-chip.html)
-[macnicadhw](https://www.macnicadhw.com.br/capacitacao/treinamento-fpga-intel/treinamento-fpga-basico-intermediario)
+- [fastercapital - Entendo SoC](https://fastercapital.com/content/System-on-Chip--SoC---Integrating-multiple-components-on-a-single-chip.html)
+- [macnicadhw](https://www.macnicadhw.com.br/capacitacao/treinamento-fpga-intel/treinamento-fpga-basico-intermediario)
