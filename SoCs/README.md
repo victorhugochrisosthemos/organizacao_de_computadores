@@ -65,3 +65,6 @@ https://docs.nvidia.com/networking/display/bfswtroubleshooting/soc+platform
 https://fastercapital.com/content/System-on-Chip--SoC---Integrating-multiple-components-on-a-single-chip.html
 
 
+## Próximos passos de estudos
+[fastercapital - Entendo SoC](https://fastercapital.com/content/System-on-Chip--SoC---Integrating-multiple-components-on-a-single-chip.html)
+[macnicadhw](https://www.macnicadhw.com.br/capacitacao/treinamento-fpga-intel/treinamento-fpga-basico-intermediario)
