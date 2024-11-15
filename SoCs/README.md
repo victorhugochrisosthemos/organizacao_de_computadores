@@ -46,3 +46,22 @@ feito testes e validado, já é possível criar um ASIC, um circuito integrado
 criado para a solução de um problema específico como mineração de criptomoedas. 
 Porém, diferente do SoC, o ASIC é altamente personalizado, e o SoC possui o foco 
 em ser um sistema computacional em um único chip com flexibilidade de integração.<br>
+
+## Onde ler mais sobre o assunto?
+https://developer.arm.com/documentation/den0013/d/Introduction/System-on-Chip--SoC-
+
+https://www.intel.com.br/content/www/br/pt/newsroom/news/first-socketed-soc-processors-for-edge-innovation.html?wapkw=SoC
+
+https://www.intel.com.br/content/www/br/pt/newsroom/news/intel-cadence-expand-partnership-soc-design.html?wapkw=SoC
+
+https://www.intel.com.br/content/www/br/pt/newsroom/news/soc-solution-accelerates-electric-vehicle-innovation.html?wapkw=SoC
+
+https://www.nvidia.com/en-us/drivers/feature-single-chip/
+
+https://community.amd.com/t5/adaptive-computing/amd-supports-new-long-lifecycle-fpga-designs-through-2040-2045/ba-p/702533
+
+https://docs.nvidia.com/networking/display/bfswtroubleshooting/soc+platform
+
+https://fastercapital.com/content/System-on-Chip--SoC---Integrating-multiple-components-on-a-single-chip.html
+
+
